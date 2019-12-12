@@ -1,2 +1,2 @@
 # me
-about me 👨
+about me 🧑
