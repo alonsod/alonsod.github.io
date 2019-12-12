@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
-body, h1, h2, h3, h4 {
+body, h1, h2, h3, h4, p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
@@ -9,49 +9,87 @@ body, h1, h2, h3, h4 {
 
 header {
   background-color: #2c5460;
-  height: 60px;
+  border-top: 5px solid  #bbdc2f ;
+  height: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;    
+}
+
+header .index-name {
+  font-size: 30px;
   color: #bbdc2f;
-  border-top: 3px solid  #bbdc2f ;
-}
-
-header .name {
+  align-self: center;
   margin-left: 50px;
-  align-items: center;
 }
 
-header nav {  
-  align-items: center;
-  display: flex;
-  justify-self: end;
+header .index-nav {
+  font-size: 30px;
+  align-self: center;
   margin-right: 50px;
+  display: grid;
+  justify-content: flex-end;
 }
 
 header nav a {
   text-decoration: none;
-  color: #bbdc2f
-}
-
-main .index-main{
-  padding: 0;
+  color: #bbdc2f;
 }
 
 main .index-main-welcome  {
-  background-color: #2c5460;  
+  background-color: #2c5460;
+  padding: 80px 0;
+  box-shadow: 0px 10px 13px -7px #000000
 }
 
 main .index-main-welcome h1 {
-  font-size: 21px;
+  height: 120px;
+  font-size: 50px;
   font-weight: 700;
-  color: #bbdc2f
+  color: #bbdc2f;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 main .index-main-welcome p {
-  color: #cbe0e0
+  color: #cbe0e0;
+  padding: 0 10%;
+  text-align: center;
 }
 
 footer {
   border: 1px solid red;
+}
+
+
+main .index-main-projects  {
+  padding: 40px 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+main .index-main-projects h2 {
+  height: 80px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #2c5460;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+main .index-main-projects-list {
+  padding-top: 30px;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+main .index-main-project {
+  width: 350px;
+  border: 1px solid  chartreuse;
+  padding: 15px;
 }
