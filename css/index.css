@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+/* https://colorhunt.co/palette/7277  */
 
-body, h1, h2, h3, h4, p {
+body, h1, h2, h3, h4, p, div, img {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
@@ -81,15 +82,88 @@ main .index-main-projects h2 {
   justify-content: center; 
 }
 main .index-main-projects-list {
-  padding-top: 30px;
-  max-width: 1300px;
-  display: flex;
-  justify-content: space-around;
-
+  padding-top: 30px;  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-gap:5px;
+  justify-content: center;
+  max-width: 1300px; 
+  min-width: 330px; 
 }
 
 main .index-main-project {
-  width: 350px;
+  width: 300px;  
   border: 1px solid  chartreuse;
   padding: 15px;
+}
+
+main .index-main-project  span { 
+  height: 40px;
+  background-color: #cbe0e0;
+  display: flex;  
+  justify-content: center;
+  align-items: center;  
+  color: #2c5460;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+main .index-main-project  h3 { 
+  height: 50px;
+  font-size: 30px;
+  color: #2c5460;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+main .index-main-project-img {
+  border-radius: 10px;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 56.25% 0 0 0;
+  position: relative;
+  width: 50%
+}
+*/
+
+main .index-main-project-img {
+  height: 50px;
+}
+
+main .index-main-project img {
+  height: 50%;  
+  display:flex;
+  margin: auto;
+  /*
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%
+  */
+  /*
+  margin: auto;
+  display:flex;
+  max-width: 270px;
+  */
+}
+
+main .s1 {  
+  height: 200px;
+  grid-row-end: span 1;  
+}
+
+
+main .s2 {
+  grid-row-end: span 2;
+}
+
+
+main .s3 {  
+  grid-row-end: span 3;
 }
