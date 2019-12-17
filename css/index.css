@@ -97,7 +97,7 @@ main .index-main-project {
   padding: 15px;
 }
 
-main .index-main-project  span { 
+main .index-main-project-client-name { 
   height: 40px;
   background-color: #cbe0e0;
   display: flex;  
@@ -117,6 +117,17 @@ main .index-main-project  h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main .index-main-project-description { 
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px 0 10px;
+}
+
+main .index-main-project-title-list { 
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*
