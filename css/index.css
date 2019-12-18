@@ -78,18 +78,20 @@ main .index-main-projects h2 {
   font-weight: 700;
   color: #2c5460;
   font-size: 30px;
-  display: flex;
+  display: grid;
+  justify-content: center;
   align-items: center;
-  justify-content: center; 
 }
+
 main .index-main-projects-list {
+  
   padding-top: 30px;  
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
   grid-gap:5px;
   justify-content: center;
   max-width: 1300px; 
-  min-width: 330px; 
+  min-width: 130px; 
 }
 
 main .index-main-project {
