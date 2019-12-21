@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
-/* https://colorhunt.co/palette/7277  */
+/* https://colorhunt.co/palette/7277 
+
+https://colorhunt.co/palette/163564
+
+*/
 
 body, h1, h2, h3, h4, p, div, img {
   font-family: 'Open Sans', sans-serif;
@@ -83,8 +87,7 @@ main .index-main-projects h2 {
   align-items: center;
 }
 
-main .index-main-projects-list {
-  
+main .index-main-projects-list {  
   padding-top: 30px;  
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
@@ -92,6 +95,7 @@ main .index-main-projects-list {
   justify-content: center;
   max-width: 1300px; 
   min-width: 130px; 
+  font-size: 14px;
 }
 
 main .index-main-project {
@@ -115,7 +119,7 @@ main .index-main-project  h3 {
   height: 50px;
   font-size: 30px;
   color: #2c5460;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -124,12 +128,13 @@ main .index-main-project  h3 {
 
 main .index-main-project-description { 
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
+  color: #2c5460;
   padding: 7px 0 10px;
 }
 
 main .index-main-project-title-list { 
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
