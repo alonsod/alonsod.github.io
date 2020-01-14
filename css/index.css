@@ -6,7 +6,7 @@ https://colorhunt.co/palette/163564
 
 */
 
-body, h1, h2, h3, h4, p, div, img {
+body, h1, h2, h3, h4, p, div, img, a {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
@@ -21,14 +21,18 @@ header {
   border-top: 5px solid  #bbdc2f ;
   height: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr;    
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
-header .index-name {
+header .index-name a {
   font-size: 30px;
   color: #bbdc2f;
   align-self: center;
   margin-left: 50px;
+  text-decoration: none;
+  width:200px;
+  display:block;
 }
 
 header .index-nav {
@@ -62,7 +66,7 @@ main .index-main-welcome h1 {
 
 main .index-main-welcome p {
   color: #cbe0e0;
-  padding: 0 10%;
+  padding: 0 15px;
   text-align: center;
   font-size: 20px;
 }
@@ -73,7 +77,6 @@ footer {
 
 
 main .index-main-projects  {
-  padding: 40px 0;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -104,7 +107,7 @@ main .index-main-projects-list {
 
 main .index-main-project {
   width: 300px;  
-  border: 1px solid  chartreuse;
+  border: 1px solid  #61b136;
   padding: 15px;
 }
 
@@ -121,7 +124,6 @@ main .index-main-project-client-name {
 
 main .index-main-project  h3 { 
   height: 50px;
-  font-size: 30px;
   color: #2c5460;
   font-size: 22px;
   font-weight: 700;
@@ -142,6 +144,23 @@ main .index-main-project-title-list {
   font-weight: 400;
 }
 
+main .index-main-link-projects{ 
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .index-main-link-projects  a { 
+  color: #61b136;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main .index-main-link-projects  a:hover { 
+  text-decoration: underline;
+}
 /*
 main .index-main-project-img {
   border-radius: 10px;
