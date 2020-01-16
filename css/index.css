@@ -72,6 +72,7 @@ main .index-main-welcome p {
 }
 
 footer {
+  margin-top: 30px;
   border: 1px solid red;
 }
 
@@ -108,19 +109,15 @@ main .index-main-projects-list {
 main .index-main-project {
   width: 340px;
   background-color: #cbe0e0;
-  /*
-  border: 1px solid  #61b136;
-  padding: 15px;
-  */
 }
 
 main .index-main-project-client-name { 
   height: 40px;
-  background-color: #bbdc2f;
+  background-color: #2c5460;
   display: flex;  
   justify-content: center;
   align-items: center;  
-  color: #2c5460;
+  color: #bbdc2f;
   font-size: 18px;
   font-weight: 600;
 }
@@ -148,11 +145,33 @@ main .index-main-project-title-list {
   padding: 0px 12px
 }
 
+main .index-main-project a { 
+  background-color: #bbdc2f;
+  color: #2c5460;
+  float: right;
+  width: 150px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 0px 10px 13px -7px #000000;
+  /*
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  */
+  margin: 15px;
+}
+
+main .index-main-project a:hover { 
+  background-color: rgba(187, 220, 47, .50);
+}
 main .index-main-link-projects{ 
   padding-top: 15px;
+  padding-right: 65px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 main .index-main-link-projects  a { 
@@ -165,17 +184,6 @@ main .index-main-link-projects  a {
 main .index-main-link-projects  a:hover { 
   text-decoration: underline;
 }
-/*
-main .index-main-project-img {
-  border-radius: 10px;
-  display: block;
-  height: 0;
-  overflow: hidden;
-  padding: 56.25% 0 0 0;
-  position: relative;
-  width: 50%
-}
-*/
 
 main .index-main-project-img {
   height: 50px;
@@ -185,18 +193,6 @@ main .index-main-project img {
   height: 50%;  
   display:flex;
   margin: auto;
-  /*
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 100%
-  */
-  /*
-  margin: auto;
-  display:flex;
-  max-width: 270px;
-  */
 }
 
 main .s1 {  
