@@ -156,11 +156,11 @@ main .index-main-project a {
   border:none;
   border-radius: 5px;
   box-shadow: 0px 10px 13px -7px #000000;
-  /*
+  
   display: flex;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
-  */
+  
   margin: 15px;
 }
 
