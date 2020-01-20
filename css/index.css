@@ -145,19 +145,23 @@ main .index-main-project-title-list {
   padding: 0px 12px
 }
 
+main .index-main-project-action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 15px; 
+}
+
 main .index-main-project a { 
   background-color: #bbdc2f;
   color: #2c5460;
-  float: right;
   width: 150px;
-  height: 60px;
+  height: 50px;
   font-size: 22px;
   font-weight: 600;
   border:none;
   border-radius: 5px;
   box-shadow: 0px 10px 13px -7px #000000;
-  margin-right: 15px;
-  margin-bottom: 15px;
   text-decoration: none;
   display: flex;
   justify-content:space-around;
@@ -208,4 +212,27 @@ main .s2 {
 
 main .s3 {  
   grid-row-end: span 3;
+}
+
+main .index-main-skills-list {  
+  padding-top: 30px;  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap:10px;
+  justify-content: center;
+  max-width: 1200px; 
+  min-width: 200px; 
+  font-size: 14px;
+}
+
+main .index-main-skill {
+  background-color: #2c5460;
+  display: flex;  
+  justify-content: center;
+  align-items: center;  
+  color: #bbdc2f;
+  font-size: 22px;
+  font-weight: 700;
+  width: 200px;
+  height: 133px;
 }
