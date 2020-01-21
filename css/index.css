@@ -17,8 +17,8 @@ body, h1, h2, h3, h4, p, div, img, a {
 }
 
 header {
-  background-color: #2c5460;
-  border-top: 5px solid  #bbdc2f ;
+  background-color: #9d0b0b;
+  border-top: 5px solid  #da2d2d ;
   height: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,7 +27,7 @@ header {
 
 header .index-name a {
   font-size: 30px;
-  color: #bbdc2f;
+  color: #da2d2d;
   align-self: center;
   margin-left: 50px;
   text-decoration: none;
@@ -45,11 +45,11 @@ header .index-nav {
 
 header nav a {
   text-decoration: none;
-  color: #bbdc2f;
+  color: #da2d2d;
 }
 
 main .index-main-welcome  {
-  background-color: #2c5460;
+  background-color: #9d0b0b;
   padding: 80px 0;
   box-shadow: 0px 10px 13px -7px #000000
 }
@@ -58,14 +58,14 @@ main .index-main-welcome h1 {
   height: 120px;
   font-size: 50px;
   font-weight: 700;
-  color: #bbdc2f;  
+  color: #da2d2d;  
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 main .index-main-welcome p {
-  color: #cbe0e0;
+  color: #f6da63;
   padding: 0 15px;
   text-align: center;
   font-size: 20px;
@@ -88,7 +88,7 @@ main .index-main-projects h2 {
   height: 80px;
   font-size: 50px;
   font-weight: 700;
-  color: #2c5460;
+  color: #9d0b0b;
   font-size: 30px;
   display: grid;
   justify-content: center;
@@ -108,23 +108,23 @@ main .index-main-projects-list {
 
 main .index-main-project {
   width: 340px;
-  background-color: #cbe0e0;
+  background-color: #f6da63;
 }
 
 main .index-main-project-client-name { 
   height: 40px;
-  background-color: #2c5460;
+  background-color: #9d0b0b;
   display: flex;  
   justify-content: center;
   align-items: center;  
-  color: #bbdc2f;
+  color: #da2d2d;
   font-size: 18px;
   font-weight: 600;
 }
 
 main .index-main-project  h3 { 
   height: 50px;
-  color: #2c5460;
+  color: #9d0b0b;
   font-size: 22px;
   font-weight: 700;
   display: flex;
@@ -135,7 +135,7 @@ main .index-main-project  h3 {
 main .index-main-project-description { 
   font-size: 16px;
   font-weight: 700;
-  color: #2c5460;
+  color: #9d0b0b;
   padding: 7px 12px 10px 12px;
 }
 
@@ -153,8 +153,8 @@ main .index-main-project-action {
 }
 
 main .index-main-project a { 
-  background-color: #bbdc2f;
-  color: #2c5460;
+  background-color: #da2d2d;
+  color: #9d0b0b;
   width: 150px;
   height: 50px;
   font-size: 22px;
@@ -179,7 +179,7 @@ main .index-main-link-projects{
 }
 
 main .index-main-link-projects  a { 
-  color: #61b136;
+  color: #9d0b0b;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
@@ -226,11 +226,11 @@ main .index-main-skills-list {
 }
 
 main .index-main-skill {
-  background-color: #2c5460;
+  background-color: #9d0b0b;
   display: flex;  
   justify-content: center;
   align-items: center;  
-  color: #bbdc2f;
+  color: #da2d2d;
   font-size: 22px;
   font-weight: 700;
   width: 200px;
