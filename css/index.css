@@ -112,25 +112,25 @@ main .index-main-projects-list {
 
 main .index-main-project {
   width: 340px;
-  background-color: #eb8242;
+  background-color: #f2f6f5;
 }
 
 main .index-main-project-client-name { 
   height: 40px;
-  background-color: #9d0b0b;
+  background-color: #63707e;
   display: flex;  
   justify-content: center;
   align-items: center;  
   color: #f6da63;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 main .index-main-project  h3 { 
   height: 50px;
-  color: #9d0b0b;
+  color: #63707e;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,8 +138,8 @@ main .index-main-project  h3 {
 
 main .index-main-project-description { 
   font-size: 16px;
-  font-weight: 700;
-  color: #9d0b0b;
+  font-weight: 600;
+  color: #63707e;
   padding: 7px 12px 10px 12px;
 }
 
@@ -230,11 +230,11 @@ main .index-main-skills-list {
 }
 
 main .index-main-skill {
-  background-color: #9d0b0b;
+  background-color: #f2f6f5;
   display: flex;  
   justify-content: center;
   align-items: center;  
-  color: #f6da63;
+  color: #63707e;
   font-size: 22px;
   font-weight: 700;
   width: 200px;
