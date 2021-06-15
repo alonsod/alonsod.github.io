@@ -25,18 +25,18 @@ header, footer {
 
 header {
   min-height: 80px;
-  border-top: 5px solid  #D00000 ;
+  border-top: 5px solid  #ff8fa3 ;
 }
 
 footer {
   min-height: 60px;
   margin-top: 30px;
-  border-bottom: 5px solid  #D00000 ;
+  border-bottom: 5px solid  #ff8fa3 ;
 }
 
  .index-name a {
   font-size: 30px;
-  color: #D00000;
+  color: #ff8fa3;
   align-self: center;
   margin-left: 50px;
   text-decoration: none;
@@ -54,7 +54,7 @@ footer {
 
  nav a {
   text-decoration: none;
-  color: #D00000;
+  color: #ff8fa3;
 }
 
 main .index-main-welcome  {
@@ -67,7 +67,7 @@ main .index-main-welcome h1 {
   height: 120px;
   font-size: 50px;
   font-weight: 700;
-  color: #D00000;  
+  color: #ff8fa3;  
   display: flex;
   align-items: center;
   justify-content: center;
