@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, p, div, img, a {
 }
 
 header, footer {
-  background-color: #9d0b0b;    
+  background-color: #6A040F;    
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -25,18 +25,18 @@ header, footer {
 
 header {
   min-height: 80px;
-  border-top: 5px solid  #eb8242 ;
+  border-top: 5px solid  #D00000 ;
 }
 
 footer {
   min-height: 60px;
   margin-top: 30px;
-  border-bottom: 5px solid  #eb8242 ;
+  border-bottom: 5px solid  #D00000 ;
 }
 
  .index-name a {
   font-size: 30px;
-  color: #eb8242;
+  color: #D00000;
   align-self: center;
   margin-left: 50px;
   text-decoration: none;
@@ -54,11 +54,11 @@ footer {
 
  nav a {
   text-decoration: none;
-  color: #eb8242;
+  color: #D00000;
 }
 
 main .index-main-welcome  {
-  background-color: #9d0b0b;
+  background-color: #6A040F;
   padding: 80px 0;
   box-shadow: 0px 10px 13px -7px #000000
 }
@@ -67,14 +67,14 @@ main .index-main-welcome h1 {
   height: 120px;
   font-size: 50px;
   font-weight: 700;
-  color: #eb8242;  
+  color: #D00000;  
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 main .index-main-welcome p {
-  color: #f6da63;
+  color: #ffba08;
   padding: 0 15px;
   text-align: center;
   font-size: 20px;
@@ -92,7 +92,7 @@ main .index-main-projects h2 {
   height: 80px;
   font-size: 50px;
   font-weight: 700;
-  color: #9d0b0b;
+  color: #6A040F;
   font-size: 30px;
   display: grid;
   justify-content: center;
@@ -121,7 +121,7 @@ main .index-main-project-client-name {
   display: flex;  
   justify-content: center;
   align-items: center;  
-  color: #f6da63;
+  color: #ffba08;
   font-size: 18px;
   font-weight: 700;
 }
@@ -157,8 +157,8 @@ main .index-main-project-action {
 }
 
 main .index-main-project a { 
-  background-color: #f6da63;
-  color: #9d0b0b;
+  background-color: #ffba08;
+  color: #6A040F;
   width: 150px;
   height: 50px;
   font-size: 22px;
@@ -183,7 +183,7 @@ main .index-main-link-projects{
 }
 
 main .index-main-link-projects  a { 
-  color: #9d0b0b;
+  color: #6A040F;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
