@@ -18,9 +18,10 @@ body, h1, h2, h3, h4, p, div, img, a {
 
 header, footer {
   background-color: #6A040F;    
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 header {
@@ -46,10 +47,6 @@ footer {
 
  .index-nav {
   font-size: 30px;
-  align-self: center;
-  margin-right: 50px;
-  display: grid;
-  justify-content: flex-end;
 }
 
  nav a {
